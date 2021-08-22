@@ -1,0 +1,53 @@
+.main{
+	widht:80%;
+	margin:auto;
+}
+h1{
+	text-align: center;
+	color:pink;
+	font-family:"ALGERIAN";
+	letter-spacing: 20px;
+	text-decoration: overline;
+}
+.contenedor-video{
+position:relative;
+overflow:hidden;
+padding-top:20%;
+
+}
+.contenedor-video iframe{
+	position:absolute;
+	top:0;
+	left:0;
+
+}
+body{
+	background-attachment:fixed;
+	background-position:50% 0%;
+}
+ p {
+	color:white;
+	float:right;
+	top:100px;
+	font-family:"Edwardian Script ITC";
+	font-size:35px;
+	padding:10px;
+}
+
+	
+h2{
+	color:#DA48F1;
+	text-decoration:overline;
+}
+h3{
+	color:pink;
+	font-family:"Kunstler Script";
+	font-size:50px;
+	text-decoration:line-through;
+}
+h4{
+	color:#DA48F1;
+	font-family:"Kunstler Script";
+	font-size:40px;
+	text-decoration: underline;
+}
