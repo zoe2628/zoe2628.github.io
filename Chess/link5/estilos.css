@@ -1,0 +1,50 @@
+
+#audiositos{
+    height: 80px;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed;
+    background: black;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+h5{
+    color:#CC0000;
+    font-family:"ALGERIAN";
+    letter-spacing: 15px;
+}
+p::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+p::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+body {
+    background-size: cover ;
+    background-attachment:fixed;
+    background-position:50% 0%;
+    background-repeat: no-repeat;
+    padding: 4%;
+}
+.pdf{
+    color:#FF0000;
+    font-family:"Old English Text Mt";
+    font-size:35px;
+    text-decoration: underline;
+    text-align: center;
+}

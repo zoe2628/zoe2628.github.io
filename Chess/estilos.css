@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700');
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+     z-index: -1;
+
+}
+.main{
+	widht:80%;
+	margin:auto;
+}
+h1{
+	font-size: 130px;
+  background: -webkit-linear-gradient(#BC1A68, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1{
+	animation-duration: 12s !important;
+animation-delay: 5s;
+}
+.container{
+	font-family:"Old English Text Mt";
+	letter-spacing: 20px;
+	text-decoration: overline;
+	text-align: center;
+}
+body{
+	background-size: cover;
+	background-attachment:fixed;
+	background-position:50% 0%;
+	background-repeat: no-repeat;
+	padding: 10px 4%;
+	 z-index: 99;
+}
+ p, .taktika {
+	color:white;
+	top:100px;
+	text-align:left;
+	font-family:"Imprint Mt Shadow";
+	font-size:20px;
+	padding:10px;
+	margin: 50px 2px;
+}
+#audiositos{
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed;
+	background: black;
+}
+
+	
+
+
+.noseporquetengoquehaceresto, .mejorar, .titulinguis2, .tactica, .terminologia, .estrategius {
+	color:#FF0000;
+	font-family:"Old English Text Mt";
+	font-size:35px;
+	text-decoration: underline;
+	text-align: center;
+}
+.terminologia1, .titulinguis, .terminologia2, .terminologia3, .terminologia4, .terminologia5, .terminologia6, .terminologia7, .terminologia8, .terminologia9 {
+	color:#FF0000;
+	font-family:"Old English Text Mt";
+	font-size:26px;
+	text-decoration: underline;
+}
+p::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+p::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+h4{
+	color:#FF0000;
+	font-family:"Kunstler Script";
+	font-size:40px;
+	text-decoration: overline;
+}
+.link1{
+	color:#FF0000;
+	font-family:"ALGERIAN";
+	letter-spacing: 20px;
+	text-align: center;
+}
+.linea {
+	color:#D52424;
+}
+.sonidosl {
+	color:#CC0000;
+	font-family:"ALGERIAN";
+	letter-spacing: 15px;
+	font-size:15px;
+}
+.listita {
+	color:white;
+	top:100px;
+	text-align:left;
+	font-family:"Imprint Mt Shadow";
+	font-size:20px;
+	padding:10px;
+	margin: 50px 2px;
+}
+
+.listita2, .link6, .link7, .link5 {
+	color:white;
+	top:100px;
+	text-align:left;
+	font-family:"Imprint Mt Shadow";
+	font-size:20px;
+	padding:10px;
+	margin: 50px 2px;
+}
+.listunguis{
+	display: flex; 
+   
+    align-items: center;
+}
+.seichi, .videodescargado6{
+	 list-style: none;
+    display: inline-block;
+}
+ .mates2, .mates3, .mates4, .mates5{
+	 list-style: none;
+    display: inline-block;
+    float: right;
+}
+.videodescargado7, .listongui {
+	 list-style: none;
+    display: inline-block;
+    text-align: right;
+}
+.link6, .link7, .link5 {
+	color:white;
+	top:100px;
+	text-align:left;
+	font-family:"Old English Text Mt";
+	font-size:25px;
+	padding:10px;
+	margin: 50px 2px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+   background: -webkit-linear-gradient(#2C0304, black);
+  padding: 30px;
+}
+#gg{
+	 
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 30px;
+  font-family:"Old English Text Mt";
+  font-size: 30px;
+  color: white;
+
+}
+@media screen and (max-width: 676px) {
+  #gg {
+    align-items: center;
+    margin: 30px 10px 30px 10px;
+    font-family:"Old English Text Mt";
+  }
+  #gg {
+  color: #ff861a;
+  font-size: 30px;
+  font-weight: 700;
+  font-family:"Old English Text Mt";
+}
+@media screen and (max-width: 360px) {
+  #gg {
+    font-size: 30pt;
+  }
+}
+#gg :hover {
+  color: white;
+  transform: translateX(10px);
+}

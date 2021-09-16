@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700');
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+
+}
+#audiositos{
+    height: 80px;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed;
+    background: black;
+}
+p::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+p::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+body{
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:50% 0%;
+    background-repeat: no-repeat;
+    padding: 10px 4%;
+     z-index: 99;
+}
+h4 {
+animation-duration: 12s !important; /*tiempo que dura la animación*/ 
+animation-delay: 5s; /*tiempo de espera hasta que se produce la animación*/
+/*  animation-iteration-count: infinite;*/
+font-family:"Imprint Mt Shadow";
+}
+h4 {
+	 background: -webkit-linear-gradient(#BC1A68, #D52424);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    top:100px;
+    text-align:center;
+    font-size:20px;
+    padding:10px;
+    margin: 50px 2px;
+
+}
+.video2, .video3, .video4, .video5, .video6, .video7, .video8 {
+     list-style: none;
+    display: inline-block;
+   float: right;
+}
+.sonidosl {
+        color:#CC0000;
+    font-family:"ALGERIAN";
+    letter-spacing: 15px;
+    font-size:15px;
+}
+.parrafo1 {
+
+    color:white;
+    float:left;
+    top:100px;
+    font-family:"Imprint Mt Shadow";
+    font-size:20px;
+    padding:10px;
+}
