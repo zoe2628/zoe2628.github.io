@@ -62,6 +62,44 @@ p::-moz-selection {
     text-shadow: 1px 1px #fff;
 }
 
+h3::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h3::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+h1::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h1::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+h4::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h4::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
 h3{
 	color:#D52424;
 	font-family:"Kunstler Script";
@@ -69,6 +107,30 @@ h3{
 	 background: -webkit-linear-gradient(#BC1A68, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+h5::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h5::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+h2::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h2::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
 }
 
 .tituloraro {

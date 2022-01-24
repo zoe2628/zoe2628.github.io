@@ -27,12 +27,75 @@ p::-moz-selection {
     color: black;
     text-shadow: 1px 1px #fff;
 }
+
+h3::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h3::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+h1::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h1::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+h4::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h4::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
 h4{
 	color:#FF0000;
 	font-family:"Old English Text Mt";
 	font-size:35px;
 	text-decoration: underline;
 	text-align: center;
+}
+h5::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h5::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+h2::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h2::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
 }
 .wrapper {
 	color:white;
