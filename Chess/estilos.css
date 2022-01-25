@@ -28,6 +28,36 @@ animation-delay: 5s;
 	text-decoration: overline;
 	text-align: center;
 }
+.menu{
+	list-style: none;
+	
+	padding: 0;
+
+	background:-webkit-linear-gradient(#2C0304, black);
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	font-size: 20px;
+	font-family:"Old English Text Mt"
+
+
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #FF0000;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background:-webkit-linear-gradient(#B96768, black);;
+}
 body{
 	background-size: cover;
 	background-attachment:fixed;
@@ -83,15 +113,86 @@ p::-moz-selection {
     color: black;
     text-shadow: 1px 1px #fff;
 }
-
-.listita2::selection {
+p strong::selection {
     background: red;
     color: black;
     text-shadow: 1px 1px #fff;
 }
 
 /* Firefox */
-.listita2::-moz-selection {
+p strong::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+.taktika li::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.taktika li::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+.parrafo2 li::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.parrafo2 li::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+.parrafo5 li::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.parrafo5 li::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+.menu li a::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.menu li a::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+.menu::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.menu::-moz-selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+.listita2 li::selection {
+    background: red;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.listita2 li::-moz-selection {
     background: red;
     color: black;
     text-shadow: 1px 1px #fff;
@@ -180,11 +281,7 @@ h4{
 	font-size:40px;
 	text-decoration: overline;
 }
-.link1{
-	color:#FF0000;
-	font-family:"ALGERIAN";
-	letter-spacing: 20px;
-	text-align: center;
+
 }
 .linea {
 	color:#D52424;
@@ -205,7 +302,7 @@ h4{
 	margin: 50px 2px;
 }
 
-.listita2, .link6, .link7, .link5 {
+.listita2 {
 	color:white;
 	top:100px;
 	text-align:left;
