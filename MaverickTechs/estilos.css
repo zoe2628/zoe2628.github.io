@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700');
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+     z-index: -1;
+
+}
+.main{
+	widht:80%;
+	margin:auto;
+}
+h1{
+	text-align: center;
+	font-size: 130px;
+  background: -webkit-linear-gradient(#FF451C, #BD3419);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1{
+	animation-duration: 12s !important;
+animation-delay: 5s;
+}
+.container{
+	font-family:"Old English Text Mt";
+	letter-spacing: 20px;
+	text-decoration: overline;
+	text-align: center;
+}
+.menu{
+	list-style: none;
+	
+	padding: 0;
+
+	background:-webkit-linear-gradient(#BA0606, black);
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	font-size: 20px;
+	font-family:"Old English Text Mt"
+
+
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background:-webkit-linear-gradient(#BA0606, black);;
+}
+body{
+	cursor: url(imagen/cursor1.png), auto;
+	background-size: cover;
+	background-attachment:fixed;
+	background-position:50% 0%;
+	background-repeat: no-repeat;
+	padding: 10px 4%;
+	 z-index: 99;
+}
+a{
+	cursor: url(imagen/cursor2.png), auto;
+}
+ p, .taktika {
+	color:white;
+	top:100px;
+	text-align:left;
+	font-family:"Imprint Mt Shadow";
+	font-size:20px;
+	padding:12px;
+	margin: 50px 2px;
+}
+#audiositos{
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed;
+	background: black;
+}
+
+	
+
+
+.tactica, .terminologia{
+	color:#BA0606;
+	font-family:"Old English Text Mt";
+	font-size:35px;
+	text-decoration: underline;
+	text-align: center;
+}
+.terminologia{
+	color:#BA0606;
+	font-family:"Old English Text Mt";
+	font-size:35px;
+	text-decoration: underline;
+	text-align: center;
+}
+.titulinguis{
+	color:#BA0606;
+	font-family:"Old English Text Mt";
+	font-size:26px;
+	text-decoration: underline;
+}
+p::selection {
+    background: black;
+    color: #BA0606;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+p::-moz-selection {
+    background: black;
+    color: #BA0606;
+    text-shadow: 1px 1px #fff;
+}
+p strong::selection {
+    background: black;
+    color: #BA0606;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+p strong::-moz-selection {
+    background: black;
+    color: #BA0606;
+    text-shadow: 1px 1px #fff;
+}
+
+.parrafo2 li::selection {
+    background: black;
+    color: #BA0606;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.parrafo2 li::-moz-selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+.menu li a::selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.menu li a::-moz-selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+.menu::selection {
+    background: #120563;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.menu::-moz-selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+
+.listita::selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+.listita::-moz-selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+
+h5::selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h5::-moz-selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+h2::selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h2::-moz-selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+
+h1::selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h1::-moz-selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+h4::selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Firefox */
+h4::-moz-selection {
+    background: black;
+    color: #2FD9E4;
+    text-shadow: 1px 1px #fff;
+}
+
+h4{
+	color:#2FD9E4;
+	font-family:"Kunstler Script";
+	font-size:40px;
+	text-decoration: overline;
+}
+
+}
+.linea {
+	color:#D52424;
+}
+.sonidosl {
+	color:white;
+	font-family:"ALGERIAN";
+	letter-spacing: 15px;
+	font-size:15px;
+	background color: black;
+}
+.listita {
+	color:white;
+	top:100px;
+	text-align:left;
+	font-family:"Imprint Mt Shadow";
+	font-size:20px;
+	padding:10px;
+	margin: 50px 2px;
+}
+
+
+
+
+
+.contenedor{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+.contenedor figure{
+position: relative;
+height: 250px;
+width: 350px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0,50);
+cursor: pointer;
+}
+.contenedor figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background:-webkit-linear-gradient(#230BB9, black);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+.contenedor figure:hover > .capa{
+	opacity: 1;
+	visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+.contenedor figure .capa h3{
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	margin-top: 30px;
+}
+.contenedor figure .capa p{
+	color: #fff;
+	font-size: 17px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+   background: -webkit-linear-gradient(#BA0606, black);
+  padding: 30px;
+}
+#gg{
+	 
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 30px;
+  font-family:"Old English Text Mt";
+  font-size: 30px;
+  color: white;
+
+}
+@media screen and (max-width: 676px) {
+  #gg {
+    align-items: center;
+    margin: 30px 10px 30px 10px;
+    font-family:"Old English Text Mt";
+  }
+  #gg {
+  color: #ff861a;
+  font-size: 30px;
+  font-weight: 700;
+  font-family:"Old English Text Mt";
+}
+@media screen and (max-width: 360px) {
+  #gg {
+    font-size: 30pt;
+  }
+}
+#gg :hover {
+  color: #B82628;
+  transform: translateX(10px);
+}
